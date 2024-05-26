@@ -13,6 +13,7 @@ NDDF<-function(x,y,x0){
   }
   return(y[1]+sum)
 }
+# An example
 x<-c(2.0, 2.2, 2.4, 2.7, 2.8)
 y<-c(0.9772499, 0.9860966, 0.9918025, 0.9965330, 0.9974449)
 NDDF(x, y, 2.1)	#interpolation
